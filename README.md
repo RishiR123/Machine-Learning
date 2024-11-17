@@ -1,6 +1,6 @@
 # **Machine Learning Projects Repository**
 
-![Repository Overview](https://media.giphy.com/media/3o6ZsX92N7Iyu66ZAQ/giphy.gif)  
+![Repository Overview](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmRtbnh0MmNkNmp5NG80d3F5NnloeWs2MGx6aTlidHJzamY4Y3RpdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gutZ5Pm6Xl62eIf5RZ/giphy.webp)  
 *A showcase of my journey in Machine Learning!*
 
 This repository is a curated collection of machine learning projects categorized into **Tier 1**, **Tier 2**, and **Tier 3** based on their complexity and impact. Whether you are a beginner exploring foundational concepts or an expert diving into advanced models, you'll find inspiration and value here!
