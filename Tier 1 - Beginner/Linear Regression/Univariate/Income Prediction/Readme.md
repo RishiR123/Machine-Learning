@@ -28,7 +28,7 @@ To install the dependencies, run:
 Run the model: You can run the model training and prediction script by executing:
 
 ```bash
-Income Prediction/salary_predictor.py
+Tier 1 - Beginner/Linear Regression/Univariate/Income Prediction/Income_predictor.py
 
 ```
 
