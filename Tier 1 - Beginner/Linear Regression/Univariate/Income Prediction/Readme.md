@@ -1,14 +1,13 @@
-# **Income Prediction - Univariate Project**
+# **Salary Prediction using Linear Regression**
 
-This project predicts income based on a single feature, using experience and test scores. It demonstrates basic machine learning techniques, including data preprocessing, linear regression, and model evaluation.
+This project predicts salary based on experience, test scores, and interview scores using linear regression. It demonstrates the basic process of data cleaning, model training, prediction, and evaluation.
 
 ## **Overview**
-- **Goal**: Predict the income of an individual based on their experience and test scores.
-- **Type**: Univariate Regression
-- **Libraries Used**:
-  - `pandas`: For data manipulation and preprocessing.
-  - `scikit-learn`: For building and evaluating the linear regression model.
-  - `matplotlib`: For data Vizualization
+-**Goal**: Predict the salary of an individual based on their experience, test score, and interview score.
+-**Type**: Multivariate Regression
+-Libraries Used:
+  -**pandas**: For data manipulation and preprocessing.
+  -**scikit**-learn: For building and evaluating the linear regression model.
 
 
 ## **How to Run**
@@ -18,7 +17,7 @@ This project predicts income based on a single feature, using experience and tes
 
 ## **Requirements**
 - Python 3.8+
-- Libraries: `pandas`, `scikit-learn` , `matplotlib`
+- Libraries: `pandas`, `scikit-learn`
 
 
 **minimal explanation**
@@ -32,34 +31,26 @@ In this project, we have used **linear regression** to predict income based on t
 
 ## **Explanation**
 
-### **Data Visualization**
-We start by visualizing the data using a scatter plot. The plot helps us observe the relationship between the year (input) and income (output). From the visualization, we can see that there is a linear trend, which suggests that linear regression is an appropriate model for this task.
+### **Data Preprocessing**
+The dataset is preprocessed by mapping experience values to numerical values and filling missing data in the 'experience' and 'test_score' columns using the median and mean, respectively. This ensures that the data is clean and ready for model training.
 
 ### **Model Training**
-The model is trained using the **Linear Regression** algorithm. We use the year as the input feature (independent variable) and income as the target (dependent variable). The model learns the relationship between the year and income to make predictions.
+The model is trained using the **Linear Regression** algorithm. The input features (independent variables) are `experience`, `test_score`, and `interview_score`, and the target (dependent variable) is `salary`. The model learns the relationship between these features and salary to make predictions.
 
 ### **Prediction**
-Once the model is trained, we use it to predict income for new input data. The model generates predictions for income based on the year input.
+Once the model is trained, it can predict salary for any new set of input data (experience, test score, and interview score). We also demonstrate manual salary prediction using the regression coefficients.
 
 ### **Manual Calculation**
-In addition to the model's predictions, we manually calculate the predicted income for specific years using the formula of linear regression:  
-**y = mx + b**, where `m` is the slope and `b` is the intercept.
-
-### **Plotting the Regression Line**
-After training the model, we plot the regression line along with the data points. The regression line helps us visually verify how well the model fits the data. A good fit means that the line closely follows the trend of the data points.
+In addition to using the model for predictions, we manually calculate the predicted salary using the formula for linear regression:  
+**y = mx1 + mx2 + mx3 + b**, where `m` are the coefficients for each feature, and `b` is the intercept.
 
 ### **Model Evaluation**
-The model’s performance is evaluated using **R-squared (R²)**, a statistical measure that tells us how well the regression model explains the variation in the target variable. An R² value close to 1 indicates that the model explains most of the variance in the data, while a value closer to 0 suggests that the model does not explain much of the variance.
-
-## **Dataset**
-The project uses the following datasets:
-- **canada_per_capita_income.csv**: Contains the data for the year and corresponding per capita income.
-- **test.csv**: Contains test data for which income predictions are made.
+The model's performance can be evaluated by inspecting the model coefficients and intercept. However, for a more comprehensive evaluation, we could look at **R-squared (R²)**, which measures how well the model explains the variation in salary.
 
 ## **Requirements**
 - `pandas`
 - `scikit-learn`
-- `matplotlib`
+
 
 
 To install the dependencies, run:
@@ -67,12 +58,6 @@ To install the dependencies, run:
  pip install -r requirements.txt
 ```
 
-Run the model: You can run the model training and prediction script by executing:
-
-```bash
-Tier 1 - Beginner/Linear Regression/Univariate/Income Prediction/Income_predictor_basic.py
-
-```
 
 ## **Results**
 The model uses linear regression to predict income based on experience and test scores. You can modify the input features (experience, test scores) in the script to test the model with different data points.
