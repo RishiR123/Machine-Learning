@@ -9,7 +9,7 @@ This folder contains univariate machine learning projects, where a single featur
 ### 1. **Income Prediction**
 - **Type**: Univariate
 - **Description**: Predict income based on experience and test scores.
-- **[Project Folder](./income_prediction)**
+- **[Project Folder](Tier 1 - Beginner/Linear Regression/Univariate/Income Prediction)**
 
 ---
 
