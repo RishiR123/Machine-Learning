@@ -6,8 +6,8 @@ This folder contains beginner-friendly machine learning projects focusing on fou
 
 ## **Projects**
 1. **Linear Regression**
-    - *** Income Prediction***
-    - *** Salary  Prediction***
+    - **Income Prediction**
+    - **Salary  Prediction**
 -
     
 
