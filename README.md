@@ -15,10 +15,7 @@ This repository is a curated collection of machine learning projects categorized
    - [Tier 2 - Intermediate](#tier-2---intermediate)
    - [Tier 3 - Advanced](#tier-3---advanced)
 4. [How to Use This Repository](#how-to-use-this-repository)
-5. [Demo GIFs](#demo-gifs)
-6. [Next Steps](#next-steps)
-7. [Contributing](#contributing)
-8. [License](#license)
+5. [License](#license)
 
 ---
 
@@ -79,5 +76,5 @@ Will be updated
 ## **How to Use This Repository**
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/machine-learning-projects.git
-   cd machine-learning-projects
+   git clone https://github.com/RishiR123/Machine-Learning.git
+   cd Machine-Learning
