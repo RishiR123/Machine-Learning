@@ -8,6 +8,7 @@ This project predicts income based on a single feature, using experience and tes
 - **Libraries Used**:
   - `pandas`: For data manipulation and preprocessing.
   - `scikit-learn`: For building and evaluating the linear regression model.
+  - `matplotlib`: For data Vizualization
 
 
 ## **How to Run**
@@ -17,7 +18,7 @@ This project predicts income based on a single feature, using experience and tes
 
 ## **Requirements**
 - Python 3.8+
-- Libraries: `pandas`, `scikit-learn`
+- Libraries: `pandas`, `scikit-learn` , `matplotlib` 
 
 To install the dependencies, run:
 ```bash
