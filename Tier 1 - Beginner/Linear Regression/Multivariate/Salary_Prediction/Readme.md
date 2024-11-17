@@ -2,11 +2,11 @@
 -This project predicts salary based on experience, test scores, and interview scores using linear regression. It demonstrates the basic process of data cleaning, model training, prediction, and evaluation.
 
 # Project Overview
--**Goal**: Predict the salary of an individual based on their experience, test score, and interview score.
--**Type**: Multivariate Regression
--**Libraries Used**:
-  -**pandas**: For data manipulation and preprocessing.
-  -**scikit-learn**: For building and evaluating the linear regression model.
+- **Goal**: Predict the salary of an individual based on their experience, test score, and interview score.
+- **Type**: Multivariate Regression
+- **Libraries Used**:
+  - **pandas**: For data manipulation and preprocessing.
+  - **scikit-learn**: For building and evaluating the linear regression model.
 
 ## **Explanation**
 
