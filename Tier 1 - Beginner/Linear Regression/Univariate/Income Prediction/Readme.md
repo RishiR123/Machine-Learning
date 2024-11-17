@@ -20,7 +20,7 @@ This project predicts salary based on experience, test scores, and interview sco
 - Libraries: `pandas`, `scikit-learn`
 
 
-**minimal explanation**
+## minimal explanation
 
 # Income Prediction using Linear Regression
 
