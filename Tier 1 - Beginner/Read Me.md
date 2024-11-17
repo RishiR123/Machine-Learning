@@ -5,9 +5,11 @@ This folder contains beginner-friendly machine learning projects focusing on fou
 ---
 
 ## **Projects**
-1. **Linear Regression for Salary Prediction**  
-   - Predict salaries based on experience and test scores.  
-   - **[Project Folder](./linear_regression_salary)**  
+1. **Linear Regression**
+    - *** Income Prediction***
+    - *** Salary  Prediction***
+-
+    
 
 
 ---
