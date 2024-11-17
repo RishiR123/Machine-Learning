@@ -78,3 +78,6 @@ Will be updated
    ```bash
    git clone https://github.com/RishiR123/Machine-Learning.git
    cd Machine-Learning
+   ```
+
+**Author**: Rishi R Github(https://github.com/RishiR123)
