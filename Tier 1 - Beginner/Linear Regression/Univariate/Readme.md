@@ -9,7 +9,7 @@ This folder contains univariate machine learning projects, where a single featur
 ### 1. **Income Prediction**
 - **Type**: Univariate
 - **Description**: Predict income based on experience and test scores.
-- **[Project Folder](./IncomePrediction)**
+
 
 ---
 
@@ -18,3 +18,15 @@ This folder contains univariate machine learning projects, where a single featur
 2. Install dependencies:  
    ```bash
    pip install -r requirements.txt
+
+**Requirements**
+
+#### Python 3.8+
+#### Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn
+
+
+**Start with Linear Regression for Salary Prediction!**
+
+
+### This version is **clean and concise**, providing all essential details for quick understanding.
+
