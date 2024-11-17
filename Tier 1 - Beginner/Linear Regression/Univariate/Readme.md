@@ -19,14 +19,14 @@ This folder contains univariate machine learning projects, where a single featur
    ```bash
    pip install -r requirements.txt
 
-**Requirements**
+## **Requirements**
 
-#### Python 3.8+
-#### Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn
-
-
-**Start with Linear Regression for Salary Prediction!**
+- Python 3.8+
+- **Libraries**: pandas, numpy, matplotlib, seaborn, scikit-learn
 
 
-### This version is **clean and concise**, providing all essential details for quick understanding.
+## Start with Linear Regression for Salary Prediction!**
+
+
+- This version is **clean and concise**, providing all essential details for quick understanding.
 
