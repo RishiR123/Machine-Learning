@@ -3,8 +3,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
-# Display plots inline for Jupyter Notebook
-%matplotlib inline
 
 # Read the dataset containing per capita income data
 data = pd.read_csv("canada_per_capita_income.csv")
